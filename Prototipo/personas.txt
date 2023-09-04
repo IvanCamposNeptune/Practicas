@@ -1,0 +1,14 @@
+Archivo de respuesta ejemplo
+------------------------
+nombre: Fer
+edad: 22
+ciudad: Tehotihuacan
+------------------------
+nombre: Ivan
+edad: 25h
+ciudad: Pachuca
+------------------------
+nombre: Vanessa
+edad: 25
+ciudad: Pachuca
+------------------------
