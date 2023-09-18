@@ -287,7 +287,13 @@ def eliminar_persona(nombre: str):
 
 
 
+# #Para escuchar las peticiones en esta ip especifica
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run(app, host="127.0.0.1", port=8000)
 
+
+#Para escuchar las peticiones en la ip de este equipo sobre ese puerto
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8000)
