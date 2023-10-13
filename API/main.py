@@ -50,7 +50,7 @@ async def onu_state_gpon_olt(shelf: int = Query(1),slot: int = Query(...,ge=1,le
 #Para conextarse directamente a esta ip localmente
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8001)
+    uvicorn.run(app, host="127.0.0.1", port=8005)
 
 # # Para que se conecte con la ip del servidor (Donde se ejecute)
 # if __name__ == "__main__":
