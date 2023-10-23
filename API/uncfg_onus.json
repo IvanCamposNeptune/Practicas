@@ -1,1 +1,4 @@
-{"1": {"OnuIndex": "gpon-onu_1/1/1:1", "Sn": "GPON00AC7F68", "State": "unknown"}}
+{"1": {"OnuIndex": "gpon-onu_1/1/1:1", "Sn": "GPON00AC7F68", "State": "unknown"}, 
+"2": {"OnuIndex": "gpon-onu_1/1/1:2", "Sn": "GPON00AC7F69", "State": "offline"},
+"3": {"OnuIndex": "gpon-onu_1/1/3:2", "Sn": "GPON00AC7F70", "State": "offline"},
+"4": {"OnuIndex": "gpon-onu_1/1/4:1", "Sn": "GPON00AC7F71", "State": "unknown"}}
