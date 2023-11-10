@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos, estilos y otros elementos comunes -->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="bg-dark col-auto col-md-2 col-lg-3 min-vh-100 d-flex flex-column justify-content-between">
+                <div class="bg-dark p-2">
+                    <a class="d-flex text-decoration-none mt-1 align-items-center text-white">
+                        <span class="fs-4 fw-semibold d-none d-sm-inline">Menu</span>
+                    </a>
+                    <ul class="nav nav-pills flex-column mt-4">
+                        <li class="nav-item py-2 py-sm-0">
+                            <a href="http://telecable.proyectolt.tech/home" class="nav-link text-white">
+                                <i class="fs-5 fa-solid fa-house" style="color: #ffffff;"></i>
+                                <span class="fs-5 ms-3 d-none d-sm-inline">Hija</span>
+                            </a>
+                        </li>
+                        <!-- Otras opciones de menú -->
+                    </ul>
+                </div>
+            </div>
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 columna-2">
+                <!-- Contenido principal de la página -->
+                
+                {% block content %}{% endblock %}
+                <h1>Hola</h1>
+    
+                
+            </main>
+        </div>
+    </div>
+</body>
+</html>
